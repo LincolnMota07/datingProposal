@@ -19,10 +19,15 @@
         }
         audio {
             position: relative;
-            top: -75px;
+            top: -100px;
             margin-top: 10px;
             border-radius: 10px;
 
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: bolder;
         }
         .painel {
             font-family: 'Ephesis', cursive;
@@ -51,7 +56,7 @@
         #nao {
             position: absolute;
             height: 40px;
-            width: 60px;
+            width: 70px;
             background-color: red;
             border: 2px solid white;
             border-radius: 10px;
@@ -59,7 +64,7 @@
             margin-left: 10px;
         }
         #gif {
-            height: 200px;
+            height: 180px;
             width: 200px;
             display: inline-block;
             margin-top: 30px;
@@ -99,11 +104,11 @@
         <a href="https://www.youtube.com/shorts/BsWcLNrk7GQ?t=7&feature=share" target="_blank"><button onmouseover="mudaTexto()" id="sim">Sim!</button></a>
         <button onmouseover="fuja()"id="nao">Não!</button>
 
-        <div><img id="gif" src="https://i.pinimg.com/originals/2a/34/c9/2a34c95330d483685437ae5698b12fd9.gif" alt=""></div>
-        <div><img id="gif2" src="https://usagif.com/wp-content/uploads/gifs/lilies-11.gif" alt=""></div>
-        <div><img id="gif3" src="https://usagif.com/wp-content/uploads/gifs/lilies-11.gif" alt=""></div>
+        <div><p>Clique Na Imagem</p><a href="https://youtube.com/shorts/D_m6NbjLJ-k" target="_blank"><img id="gif" src="https://i.pinimg.com/originals/2a/34/c9/2a34c95330d483685437ae5698b12fd9.gif" alt="gif-ursinho"></a></div>
+        <div><img id="gif2" src="https://usagif.com/wp-content/uploads/gifs/lilies-11.gif" alt="gif-lirio"></div>
+        <div><img id="gif3" src="https://usagif.com/wp-content/uploads/gifs/lilies-11.gif" alt="gif-lirio"></div>
 
-        <audio controls autoplay loop>
+        <audio controls autoplay loop preload="auto">
             <source src="/audio/song.mp3" type="audio/mp3">
         </audio>
     </div>
